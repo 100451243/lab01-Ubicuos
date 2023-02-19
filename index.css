@@ -1,0 +1,45 @@
+/*The webpage is developed for phone usage*/
+* {
+    padding: 0px;
+    margin: 0px;
+}
+html, body #map {
+    height: 100vh;
+    width: 100vw;
+}
+.station_popup { 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    margin: 0.2em;
+    padding: 0.2em;
+    font-size: 20px;
+}
+.station_select {
+  appearance: none;
+  background-color: #179e6a;
+  border: 7px solid rgba(255, 255, 255, 0.664);
+  border-radius: 6px;
+  box-sizing: border-box;
+  display: inline-block;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 12px 10px;
+  margin-top: 16px;
+  color:white;
+  
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+.station_select:active{
+    background-color: #1c4234;
+}
